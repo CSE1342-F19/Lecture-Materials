@@ -7,7 +7,7 @@ int main() {
   int val1 = 100;
   int val2 = 23;
 
-  double result = (double) (val1 / val2);
+  double result = ((int)val1 / (double)val2);
   
   cout << result << endl;
 
