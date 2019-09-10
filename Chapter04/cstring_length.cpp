@@ -5,9 +5,12 @@ using namespace std;
 
 // Implement strlen()
 int stringLength(char word[]) {
-  
+  int length = 0;
+  while(word[length] != '\0') {
+    length++;
+  }
 
-  return 0;
+  return length;
 }
 
 int main() {

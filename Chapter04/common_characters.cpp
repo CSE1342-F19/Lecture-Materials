@@ -8,6 +8,7 @@ int main() {
   char var2[] = "CSE";
   int numCommon = 0;
 
+  // implement here
   for (int i = 0; i < strlen(var1); i++) {
     for (int j = 0; j < strlen(var2); j++) {
       if (var1[i] == var2[j]) {
@@ -15,6 +16,7 @@ int main() {
       }
     }
   }
+
 
   cout << "Total # common characters: " << numCommon << endl;
 
