@@ -5,7 +5,7 @@ using namespace std;
 
 int main() {
   char var1[] = "SMU";
-  char var2[] = "CSE";
+  char var2[] = "CSES";
   int numCommon = 0;
 
   // implement here
