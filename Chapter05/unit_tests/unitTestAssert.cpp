@@ -13,7 +13,7 @@ double HrMinToMin(int origHours, int origMinutes) {
 int main() {
    
    cout << "Testing started" << endl;
-   assert(/*bool*/);
+   // assert(/*bool*/);
    bool test1 = HrMinToMin(0, 0)  == 0;
    assert(test1);
    assert(HrMinToMin(-1, 1)  == -1);
