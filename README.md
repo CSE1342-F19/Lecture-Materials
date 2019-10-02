@@ -7,4 +7,5 @@ This repository holds all example programs covered in lecture. Refer back to thi
 - `Chapter04/` - Loops
 - `Chapter05/` - User Defined Functions
 - `Chapter06/` - Recursion
+- `Chapter07/` - String Streams and File I/O
 - `misc/` - Additional helpful material
