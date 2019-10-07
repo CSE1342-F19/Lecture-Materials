@@ -8,4 +8,5 @@ This repository holds all example programs covered in lecture. Refer back to thi
 - `Chapter05/` - User Defined Functions
 - `Chapter06/` - Recursion
 - `Chapter07/` - String Streams and File I/O
+- `Chapter08/` - Arrays and Vectors
 - `misc/` - Additional helpful material
