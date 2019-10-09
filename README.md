@@ -9,4 +9,5 @@ This repository holds all example programs covered in lecture. Refer back to thi
 - `Chapter06/` - Recursion
 - `Chapter07/` - String Streams and File I/O
 - `Chapter08/` - Arrays and Vectors
+- `Chapter09/` - Searching and Sorting Algorithms
 - `misc/` - Additional helpful material
