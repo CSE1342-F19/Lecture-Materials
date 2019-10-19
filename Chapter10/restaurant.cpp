@@ -7,7 +7,7 @@ class Restaurant {                          // Info about a restaurant
    public:
       void SetName(string restaurantName);
       void SetRating(int userRating);       // Sets the rating (1-5, with 5 best)
-      void Print();                         // Prints name and rating on one line
+      void Print();
    
    private:
       string name;
@@ -29,10 +29,16 @@ void Restaurant::Print() {
    cout << name << " -- " << rating << endl;
 }
 
+void Print() {
+   cout << "Hello World";
+}
+
 int main() {
    Restaurant favLunchPlace;
    Restaurant favDinnerPlace;
-   
+
+   Print();
+
    favLunchPlace.SetName("Central Deli");
    favLunchPlace.SetRating(4);
    

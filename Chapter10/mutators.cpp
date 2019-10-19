@@ -4,8 +4,8 @@ using namespace std;
 
 class Student {
    private: 
-      string name;
-      int smuId;
+      string name = "No Name";
+      int smuId = 0;
 
    public:
       void   SetName(string fullName); // Mutator
@@ -18,7 +18,11 @@ class Student {
 };
 
 void Student::SetName(string fullName) {
-  name = fullName;
+  if (fullName.length() < 1) {
+    cout << "Error";
+  } else {
+    name = fullName;
+  }
 }
 
 void Student::SetId(int id) {
@@ -39,11 +43,13 @@ void Student::Print() const {
 
 int main() {
   Student student1;
+  student1.GetName();
 
   student1.SetName("Erik Gabrielsen");
   student1.SetId(123456);
 
   int student1Id = student1.GetId();
+  student1Id = 12345;
 
   student1.Print();
   return 0;

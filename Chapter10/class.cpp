@@ -5,6 +5,7 @@ using namespace std;
 class Line {
   public:
     double length;
+    double width;  
 };
  
 // Main function for the program

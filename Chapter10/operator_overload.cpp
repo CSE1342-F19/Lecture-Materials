@@ -20,7 +20,7 @@ Employee::Employee(string name, int employeeNum) {
 }
 
 bool Employee::operator==(Employee employee) {
-  return this->name == "Hello World";
+  return this->name == employee.name;
 }
 
 int main() {
