@@ -32,7 +32,7 @@ public:
    };
    
    void PrintItem()  {
-      // GenericItem::PrintItem();
+      GenericItem::PrintItem();
       cout << " (Expires: " << expirationDate << ")"<< endl;
    };
    

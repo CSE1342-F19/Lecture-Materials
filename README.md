@@ -14,4 +14,5 @@ This repository holds all example programs covered in lecture. Refer back to thi
 - `Chapter11/` - Pointers and Dynamic Memory Allocation
 - `Chapter12/` - Linked Lists, Stacks and Queues
 - `Chapter13/` - Inheritance and Polymorphism
+- `Chapter14/` - Exceptions
 - `misc/` - Additional helpful material

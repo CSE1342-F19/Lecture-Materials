@@ -2,12 +2,13 @@
 #include "LinkedList.h"
 
 void LinkedList::print(){
-    Node* temp = this->head;
-    int i = 1;
-    while(temp){
-        std::cout << i << ": " << temp->data << std::endl;
-        temp = temp->next;
-        i++;
+    // TODO: Implement print (with counter)
+    Node *curr = this->head;
+    int counter = 0;
+    while (curr != nullptr) {
+      std::cout << counter << ": " << curr->data << std::endl;
+      counter++;
+      curr = curr->next;
     }
 }
 

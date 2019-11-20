@@ -69,5 +69,15 @@ void LinkedList::printReverse()
 
 Node* LinkedList::search(int data) {
   // implement search
-  throw "Search Not Implemented";
+  Node *curr = this->head;
+  while(curr != nullptr) {
+    if (curr->data == data) {
+      return curr;
+    } else {
+      curr = curr->next;
+    }
+  }
+
+  return nullptr;
+
 }
