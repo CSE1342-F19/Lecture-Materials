@@ -1,15 +1,15 @@
-// out_of_range example
-#include <iostream>       // std::cerr
-#include <stdexcept>      // std::out_of_range
-#include <vector>         // std::vector
+#include <iostream>
+#include "vector.h"
 
-int main (void) {
-  std::vector<int> myvector(10);
+int main() {
+  Vector vector(10);
+  vector.push_back(100);
+
   try {
-    myvector.at(20)=100;      // vector::at throws an out-of-range
+    std::cout << "Value: " << vector.at(1) << std::endl;
+  } catch (...) {
+    std::cout << "Exception caught" << std::endl;
   }
-  catch (const std::out_of_range& oor) {
-    std::cerr << "Out of Range error: " << oor.what() << '\n';
-  }
+
   return 0;
 }

@@ -22,7 +22,7 @@ int Vector::getCapacity() {
   return this->capacity;
 }
 
-int Vector::at(int index) throw(std::runtime_error) {
+int Vector::at(int index) {
   if (index < 0 || index >= this->size) {
     throw std::invalid_argument("Error");
   }

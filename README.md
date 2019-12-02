@@ -15,4 +15,6 @@ This repository holds all example programs covered in lecture. Refer back to thi
 - `Chapter12/` - Linked Lists, Stacks and Queues
 - `Chapter13/` - Inheritance and Polymorphism
 - `Chapter14/` - Exceptions
+- `Chapter15/` - User Defined Templates
+- `Chapter16/` - Containers and Iterators
 - `misc/` - Additional helpful material

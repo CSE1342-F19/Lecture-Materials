@@ -16,6 +16,9 @@ public:
   int getCapacity();
 
   void push_back(int);
-  int at(int index) throw(std::runtime_error);
+  /**
+   * throws runtime_error
+   */
+  int at(int index);
 };
 #endif
