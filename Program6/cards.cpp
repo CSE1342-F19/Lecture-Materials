@@ -89,6 +89,66 @@ void Display(CARDVALUES rank, CARDSUITS suit) {
     cout << endl;
 }
 
+void Display(int value) {
+    cout << "D" << value << endl;
+    switch(value){
+    case 1:
+        cout << "+---------------+" << endl;
+        cout << "|               |" << endl;
+        cout << "|               |" << endl;
+        cout << "|       *       |" << endl;
+        cout << "|               |" << endl;
+        cout << "|               |" << endl;
+        cout << "+---------------+" << endl;
+        break;
+    case 2:
+        cout << "+---------------+" << endl;
+        cout << "|   *           |" << endl;
+        cout << "|               |" << endl;
+        cout << "|               |" << endl;
+        cout << "|               |" << endl;
+        cout << "|           *   |" << endl;
+        cout << "+---------------+" << endl;
+        break;
+    case 3:
+        cout << "+---------------+" << endl;
+        cout << "|   *           |" << endl;
+        cout << "|               |" << endl;
+        cout << "|       *       |" << endl;
+        cout << "|               |" << endl;
+        cout << "|           *   |" << endl;
+        cout << "+---------------+" << endl;
+        break;
+    case 4:
+        cout << "+---------------+" << endl;
+        cout << "|   *       *   |" << endl;
+        cout << "|               |" << endl;
+        cout << "|               |" << endl;
+        cout << "|               |" << endl;
+        cout << "|   *       *   |" << endl;
+        cout << "+---------------+" << endl;
+        break;
+    case 5:
+        cout << "+---------------+" << endl;
+        cout << "|   *       *   |" << endl;
+        cout << "|               |" << endl;
+        cout << "|       *       |" << endl;
+        cout << "|               |" << endl;
+        cout << "|   *       *   |" << endl;
+        cout << "+---------------+" << endl;
+        break;
+    case 6:
+        cout << "+---------------+" << endl;
+        cout << "|   *       *   |" << endl;
+        cout << "|               |" << endl;
+        cout << "|   *       *   |" << endl;
+        cout << "|               |" << endl;
+        cout << "|   *       *   |" << endl;
+        cout << "+---------------+" << endl;
+        break;
+    }
+}
+
 int main () {
   for (int i = 0; i < 4; i++) {
     for (int j = 2; j <= 14; j++) {
@@ -96,6 +156,10 @@ int main () {
       CARDSUITS suit = (CARDSUITS) i;
       Display(rank, suit);
     }
+  }
+
+  for (int i = 0; i < 6; i++) {
+    Display(i + 1);
   }
 
   return 0;
